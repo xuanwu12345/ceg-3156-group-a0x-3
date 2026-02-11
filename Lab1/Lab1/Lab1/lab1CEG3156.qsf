@@ -1,0 +1,69 @@
+
+
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY lab1CEG3156
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:51:35  MAY 26, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name VHDL_FILE dFF_2.vhd
+set_global_assignment -name VHDL_FILE 7bitcounter.vhd
+set_global_assignment -name VHDL_FILE threebitregister.vhd
+set_global_assignment -name VHDL_FILE threebitcomparator.vhd
+set_global_assignment -name VHDL_FILE threebitadder.vhd
+set_global_assignment -name VHDL_FILE onebitcomparator.vhd
+set_global_assignment -name VHDL_FILE onebitadder.vhd
+set_global_assignment -name VHDL_FILE jkFF_2.vhd
+set_global_assignment -name VHDL_FILE enardFF_2.vhd
+set_global_assignment -name VHDL_FILE RSPL8Reg.vhd
+set_global_assignment -name VHDL_FILE MUX2_1bit.vhd
+set_global_assignment -name BDF_FILE lab1CEG3156.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name VHDL_FILE MUX2_8bit.vhd
+set_global_assignment -name VHDL_FILE LSPL8REG.vhd
+set_global_assignment -name VHDL_FILE MUX2_7bit.vhd
+set_global_assignment -name BDF_FILE loadableCounter.bdf
+set_global_assignment -name VHDL_FILE fullAdder.vhd
+set_global_assignment -name VHDL_FILE fullAdder8_bit.vhd
+set_global_assignment -name VHDL_FILE ControlPath.vhd
+set_global_assignment -name VHDL_FILE comparator8_bit.vhd
+set_global_assignment -name BDF_FILE DataPath.bdf
+set_global_assignment -name VHDL_FILE complementor8_bit.vhd
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name VHDL_FILE fpDemo.vhd
+set_location_assignment PIN_G16 -to ExponentOut[6]
+set_location_assignment PIN_G15 -to ExponentOut[5]
+set_location_assignment PIN_F15 -to ExponentOut[4]
+set_location_assignment PIN_H17 -to ExponentOut[3]
+set_location_assignment PIN_J16 -to ExponentOut[2]
+set_location_assignment PIN_H16 -to ExponentOut[1]
+set_location_assignment PIN_J15 -to ExponentOut[0]
+set_location_assignment PIN_Y2 -to GClock
+set_location_assignment PIN_G17 -to MantissaOut[7]
+set_location_assignment PIN_J17 -to MantissaOut[6]
+set_location_assignment PIN_H19 -to MantissaOut[5]
+set_location_assignment PIN_J19 -to MantissaOut[4]
+set_location_assignment PIN_E18 -to MantissaOut[3]
+set_location_assignment PIN_F18 -to MantissaOut[2]
+set_location_assignment PIN_F21 -to MantissaOut[1]
+set_location_assignment PIN_E19 -to MantissaOut[0]
+set_location_assignment PIN_H15 -to SignOut
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/hbeir013/Downloads/Lab1/Lab1/Waveform.vwf"
+set_global_assignment -name CDF_FILE output_files/Chain1.cdf
