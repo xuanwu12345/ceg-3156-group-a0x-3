@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\astro\Downloads\lab7\simulation\qsim
+vsingleCycleProc
+Z1 IXfUVh9l=I>X^<?a6OjNne2
+Z2 V1;9a[NC51Io?DCB3mLKlA1
+Z3 dC:\Users\astro\Downloads\lab7\simulation\qsim
+Z4 w1773785300
+Z5 8Lab2.vo
+Z6 FLab2.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 nsingle@cycle@proc
+!i10b 1
+Z10 !s100 __85e_;R5Ie2fZD?ULJOb0
+!s85 0
+Z11 !s108 1773785301.727000
+Z12 !s107 Lab2.vo|
+Z13 !s90 -work|work|Lab2.vo|
+!s101 -O0
+vsingleCycleProc_vlg_vec_tst
+!i10b 1
+!s100 CzKl2CK?HY30EIEZf9@9F3
+IRSk?5]k0zBdfKz6AN7_zh1
+VR>gLh3cc;=k2H7d:i8Bbk1
+R3
+w1773785299
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R7
+r1
+!s85 0
+31
+!s108 1773785301.823000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+nsingle@cycle@proc_vlg_vec_tst
